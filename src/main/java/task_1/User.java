@@ -13,7 +13,7 @@ public class User {
   private Gender gender;
   private double weight;
   private double height;
-  @Singular
+  @Singular  //(value = "Work")
   // can add one element to the List
   private List<String> occupations;
 }
