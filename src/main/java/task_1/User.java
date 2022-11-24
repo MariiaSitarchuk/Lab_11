@@ -13,6 +13,7 @@ public class User {
   private Gender gender;
   private double weight;
   private double height;
+  @Singular
   private List<String> occupations;
 }
   
