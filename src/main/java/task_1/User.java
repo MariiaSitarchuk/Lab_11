@@ -2,10 +2,12 @@ package task_1;
 
 import lombok.Builder;
 import lombok.ToSTring;
+import lombok.Singular;
+import lombok.SuperBuilder;
 
 import java.unit.List;
 
-@Builder
+@SuperBuilder
 @ToSTring
 public class User extends Human {
   private int age;
