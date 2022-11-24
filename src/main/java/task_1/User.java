@@ -3,7 +3,7 @@ package task_1;
 import lombok.Builder;
 import lombok.ToSTring;
 import lombok.Singular;
-import lombok.SuperBuilder;
+import lombok.experimental.SuperBuilder;
 
 import java.unit.List;
 
