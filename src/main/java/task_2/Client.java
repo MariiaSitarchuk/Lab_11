@@ -1,10 +1,23 @@
 package task_2;
 
-// id (this parameter should be assigned automatically in order from 0);
-// name;
-// age;
-// sex;
+import lombok.Getter;
 
 public class Client {
+  @Getter
+  private int id;
+  // to assign id automaticly from 0
+  private static in count = 0;
+  @Getter @Setter
+  private String name
+  @Getter @Setter
+  private int age;
+  @Getter @Setter
+  private Gender sex;
   
+  public Client(String name, Gender sex, int age) {
+    id = ++count;
+    this.name = name;
+    this.sex = sex;
+    this.age = age;
+  }
 }
