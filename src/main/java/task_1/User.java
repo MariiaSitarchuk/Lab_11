@@ -7,8 +7,7 @@ import java.unit.List;
 
 @Builder
 @ToSTring
-public class User {
-  private String name;
+public class User extends Human {
   private int age;
   private Gender gender;
   private double weight;
