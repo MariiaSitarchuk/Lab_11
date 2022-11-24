@@ -14,6 +14,7 @@ public class User {
   private double weight;
   private double height;
   @Singular
+  // can add one element to the List
   private List<String> occupations;
 }
   
